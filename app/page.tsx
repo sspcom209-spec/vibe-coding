@@ -669,7 +669,7 @@ export default function Home() {
                     <span className="text-sm text-zinc-700">
                       현재 좋아요:{" "}
                       <span className="font-semibold">
-                        {likeCount === null ? (likeLoading ? "..." : 37) : likeCount}
+                        {likeCount === null ? (likeLoading ? "..." : 0) : likeCount}
                       </span>
                     </span>
                   </div>

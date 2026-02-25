@@ -140,6 +140,7 @@ export async function DELETE(request: Request) {
 
     const [deleted] = entries.splice(index, 1);
 
+    
     return NextResponse.json(
       { deleted },
       {
