@@ -6,7 +6,7 @@ type LikeState = Record<string, number>;
 
 const likes: LikeState = {
   // 초기 더미 좋아요 수
-  portfolio: 37,
+  portfolio: 0,
 };
 
 function getKeyFromRequest(request: Request): string {
